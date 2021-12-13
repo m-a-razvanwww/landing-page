@@ -1,5 +1,5 @@
 /* Imports */
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;1,300&display=swap");
 /* /imports */
 
 * {
@@ -47,27 +47,32 @@ section.first-section {
   justify-content: space-evenly;
   align-items: center;
   background: rgb(19, 29, 56);
-  height: 450px;
+  height: 650px;
   padding-top: 5rem;
   margin-top: -5rem;
 }
 
 .section-1-column-1 {
-  width: 300px;
+  width: 450px;
+  height: 250px;
+  padding: 30px;
   color: white;
 }
 
 .section-1-column-1 h1 {
   font-size: 2.5rem;
+  font-weight: 700;
 }
 
 .section-1-column-1 p {
-  font-size: 1rem;
+  font-size: 1.2rem;
+  font-weight: 100;
 }
 
 .section-1-column-1 button {
-  height: 2rem;
-  width: 6rem;
+  height: 3rem;
+  width: 10rem;
+  font-size: 1.3rem;
   font-weight: 700;
   background-color: rgb(39, 39, 251);
   border: 0;
@@ -82,3 +87,62 @@ section.first-section {
   border-right: yellowgreen 2px dotted;
 }
 /* /First section */
+
+/* Second section */
+.second-section {
+  padding: 100px 0;
+}
+.second-section-columns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+}
+
+.image-paragraph {
+  width: 170px;
+  margin-top: 2rem;
+}
+
+.image-paragraph img {
+  background-color: white;
+  background-size: cover;
+  border-radius: 15px;
+  border: rgb(39, 103, 243) 2px solid;
+}
+
+.second-section h2 {
+  text-align: center;
+}
+/* /Second section */
+
+/* Third section */
+.third-section {
+  background: #eee;
+  height: 400px;
+  display: flex;
+}
+
+.third-section figure {
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 500px;
+}
+
+figure blockquote p {
+  font-weight: 300;
+  font-style: italic;
+}
+
+figure figcaption {
+  align-self: end;
+  font-weight: 400;
+  margin-top: 5px;
+  margin-right: 30px;
+}
+
+/* /Third section */
